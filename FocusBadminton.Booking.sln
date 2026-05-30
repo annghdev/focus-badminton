@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
-VisualStudioVersion = 18.4.11612.150 stable
+VisualStudioVersion = 18.4.11612.150
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D26E2084-5A1A-47E3-BE03-E8B9A74189C5}"
 EndProject
@@ -23,16 +23,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.Client", "src\Web\Web.C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "src\Common\Shared.csproj", "{A9001FE8-6D82-4978-814A-4F0C58AF7F3C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "store-procedures", "store-procedures", "{2579FB8E-F6F3-438D-9385-03BC31428464}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "stored-procedures", "stored-procedures", "{2579FB8E-F6F3-438D-9385-03BC31428464}"
 	ProjectSection(SolutionItems) = preProject
-		store-procedures\proc_check_available_fix.sql = store-procedures\proc_check_available_fix.sql
-		store-procedures\proc_use.txt = store-procedures\proc_use.txt
-		store-procedures\proc_v6.sql = store-procedures\proc_v6.sql
-		store-procedures\proc_v8.sql = store-procedures\proc_v8.sql
-		store-procedures\proc_ver9.sql = store-procedures\proc_ver9.sql
-		store-procedures\requests_sample.txt = store-procedures\requests_sample.txt
-		store-procedures\seeddata.sql = store-procedures\seeddata.sql
-		store-procedures\sql_index.txt = store-procedures\sql_index.txt
+		stored-procedures\proc_check_available_fix.sql = stored-procedures\proc_check_available_fix.sql
+		stored-procedures\proc_use.sql = stored-procedures\proc_use.sql
+		stored-procedures\proc_v8.sql = stored-procedures\proc_v8.sql
+		stored-procedures\proc_ver9.sql = stored-procedures\proc_ver9.sql
+		stored-procedures\requests_sample.txt = stored-procedures\requests_sample.txt
+		stored-procedures\seeddata.sql = stored-procedures\seeddata.sql
+		stored-procedures\sql_index.sql = stored-procedures\sql_index.sql
 	EndProjectSection
 EndProject
 Global
