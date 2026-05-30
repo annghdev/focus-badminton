@@ -156,6 +156,8 @@ FocusBadminton.Booking/
     │   ├── Repositories/            # IRepository<T>
     │   └── Constants/
     │
+    ├── app/                         # Flutter Mobile App
+    │
     ├── Application/                 # Business Logic (CQRS)
     │   ├── DependencyInjection.cs   # MediatR + AutoMapper + Validation DI
     │   ├── Common/
